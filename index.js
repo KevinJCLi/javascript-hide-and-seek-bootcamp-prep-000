@@ -25,6 +25,7 @@ function deepestChild () {
       for (let i = 0; i < grandParent.length; i++) {
         nodesToCheck.push(grandParent[i]);
       }
+    
     }
   return lastChild;
   }
