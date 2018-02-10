@@ -24,5 +24,6 @@ function deepestChild () {
     if () {
       da;
     }
+  return lastChild;
   }
 }
