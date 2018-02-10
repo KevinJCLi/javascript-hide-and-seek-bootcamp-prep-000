@@ -14,3 +14,6 @@ function increaseRankBy (n) {
   return tempList;
 }
 
+function deepestChild () {
+  document.querySelector()
+}
