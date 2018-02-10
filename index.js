@@ -22,7 +22,9 @@ function deepestChild () {
   while (grandParent) {
     
     if (Array.isArray (grandParent)) {
-      for (let i = 0; i < grandParent.length; i++);
+      for (let i = 0; i < grandParent.length; i++) {
+        nodesToCheck.push(grandParent[i]);
+      }
     }
   return lastChild;
   }
