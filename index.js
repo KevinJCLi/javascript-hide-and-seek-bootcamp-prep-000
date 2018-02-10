@@ -20,12 +20,11 @@ function deepestChild () {
   let nodesToCheck = [];
   let lastChild;
   while (grandParent) {
-    
     if (Array.isArray (grandParent)) {
       for (let i = 0; i < grandParent.length; i++) {
         nodesToCheck.push(grandParent[i]);
       }
-    
+    grandParent = nodesToCheck.shift();
     }
   return lastChild;
   }
