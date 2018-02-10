@@ -17,7 +17,10 @@ function increaseRankBy (n) {
 function deepestChild () {
   let grandParent = document.querySelectorAll("#grand-node");
   let nodesToCheck = [];
+  let lastChild;
   while (grandParent) {
-    
+    if () {
+      da;
+    }
   }
 }
