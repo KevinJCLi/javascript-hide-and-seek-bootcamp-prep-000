@@ -20,5 +20,5 @@ function deepestChild () {
   for (let i = 0; i < grandParent.length-1; i++) {
     currentChild = grandParent[i].querySelector("div");
   }
-  return currentChildL;
+  return currentChild;
 }
