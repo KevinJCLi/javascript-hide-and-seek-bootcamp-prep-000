@@ -21,7 +21,7 @@ function deepestChild () {
   let lastChild;
   while (grandParent) {
     
-    if () {
+    if (Array.is) {
       da;
     }
   return lastChild;
