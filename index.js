@@ -24,8 +24,8 @@ function deepestChild () {
       for (let i = 0; i < grandParent.length; i++) {
         nodesToCheck.push(grandParent[i]);
       }
-    grandParent = nodesToCheck.shift();
     lastChild = grandParent;
+    grandParent = nodesToCheck.shift();
     }
   return lastChild;
   }
