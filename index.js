@@ -21,8 +21,8 @@ function deepestChild () {
   let lastChild;
   while (grandParent) {
     
-    if (Array.is) {
-      da;
+    if (Array.isArray (grandParent)) {
+      for (let i = 0; i < grandParent.length; i++);
     }
   return lastChild;
   }
